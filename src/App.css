@@ -1,38 +1,90 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Header section  */
+.header-section {
+color: #7FD3B2;
 }
 
-.App-logo {
-  height: 40vmin;
+/* about section  */
+
+.about-section {
+  background-color: #2C6671;
+  color: #F2E189;
+  padding: 5rem;
+}
+
+/* services */
+
+.services-section {
+  padding: 5rem;
+  color: #2C6671;
+  text-align: center;
+  background-color: #F2E189;
+}
+
+
+/* services carousel  */
+.item {
+  min-height: 20rem;
+  min-width: 20rem;
+  padding: 20px;
+}
+
+.item img {
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.inner-carousel {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.carousel {
+  cursor: grab;
+  overflow: hidden;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* book now section  */
+
+.booking-section{
+ text-align: center;
+ padding: 8rem;
+ background-color: #2C6671;
+}
+
+.btn{
+  background-color: #7FD3B2;
+  color: #fff;
+  font-weight: 600;
+  border: #7FD3B2;
+}
+.btn:hover {
+  background-color: #F2E189;
+  color: #fff;
+}
+
+/* footer section  */
+.footer{
+  background-color: #F2E189;
+  padding: 3rem;
+  text-align: center;
+  font-size: 1rem;
+  /* color: #7FD3B2; */
+  font-weight: 400;
+}
+
+
+/* Other style sheets  */
+
+.center {
+  text-align: center;
+}
+
+.justify-content {
+  text-align: justify;
+  padding: 5rem;
 }
